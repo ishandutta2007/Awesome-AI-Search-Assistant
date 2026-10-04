@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0" />
+    </radialGradient>
+
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+
+    <style>
+      @keyframes float {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-12px) rotate(1deg); }
+      }
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.3; transform: scale(1); }
+        50% { opacity: 0.6; transform: scale(1.08); }
+      }
+      @keyframes dash {
+        to { stroke-dashoffset: -40; }
+      }
+      .background-glow {
+        animation: pulseGlow 6s ease-in-out infinite;
+        transform-origin: center;
+      }
+      .floating-node {
+        animation: float 5s ease-in-out infinite;
+      }
+      .flow-line {
+        stroke-dasharray: 8, 8;
+        animation: dash 2s linear infinite;
+      }
+      .title-text {
+        font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 800;
+        font-size: 48px;
+        fill: url(#textGrad);
+      }
+      .subtitle-text {
+        font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        fill: #94a3b8;
+      }
+      .badge-text {
+        font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        fill: #e2e8f0;
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="320" rx="16" fill="url(#bgGrad)"/>
+  
+  <!-- Glowing orb in background -->
+  <circle cx="600" cy="160" r="280" fill="url(#glow)" class="background-glow"/>
+
+  <!-- Dynamic Tech Background Nodes & Grid lines (Placed BEHIND text) -->
+  <g stroke="#334155" stroke-width="1" opacity="0.4">
+    <line x1="100" y1="60" x2="1100" y2="60" />
+    <line x1="100" y1="260" x2="1100" y2="260" />
+    <line x1="200" y1="20" x2="200" y2="300" />
+    <line x1="1000" y1="20" x2="1000" y2="300" />
+  </g>
+
+  <!-- Animated Data Flow Lines in background -->
+  <path d="M 150,260 Q 300,280 450,260 T 750,260 T 1050,260" fill="none" stroke="#38bdf8" stroke-width="2" class="flow-line" opacity="0.3"/>
+  <path d="M 150,60 Q 400,40 600,60 T 1050,60" fill="none" stroke="#c084fc" stroke-width="2" class="flow-line" opacity="0.3"/>
+
+  <!-- Center Decorative Pill Container (Background element behind header) -->
+  <g class="floating-node">
+    <rect x="350" y="30" width="500" height="36" rx="18" fill="#1e293b" stroke="#475569" stroke-width="1" opacity="0.9"/>
+    <text x="600" y="53" text-anchor="middle" class="badge-text" fill="#38bdf8">🚀 Comprehensive AI Search Engine &amp; Deep Research Hub</text>
+  </g>
+
+  <!-- FOREGROUND TEXT (Prominent and unhidden) -->
+  <g filter="url(#shadow)">
+    <!-- Main Title -->
+    <text x="600" y="145" text-anchor="middle" class="title-text">Awesome AI Search Assistant</text>
+    
+    <!-- Subtitle -->
+    <text x="600" y="190" text-anchor="middle" class="subtitle-text">Curated SaaS Platforms, Deep Research Tools &amp; Self-Hosted Open-Source Engines</text>
+  </g>
+
+  <!-- Bottom Interactive-style Feature Pills (Foreground accents) -->
+  <g transform="translate(260, 225)">
+    <!-- Pill 1 -->
+    <g transform="translate(0, 0)">
+      <rect width="190" height="42" rx="10" fill="#0f172a" stroke="#0284c7" stroke-width="1.5"/>
+      <text x="95" y="26" text-anchor="middle" class="badge-text" fill="#7dd3fc">🔍 Web RAG Search</text>
+    </g>
+
+    <!-- Pill 2 -->
+    <g transform="translate(210, 0)">
+      <rect width="260" height="42" rx="10" fill="#0f172a" stroke="#6366f1" stroke-width="1.5"/>
+      <text x="130" y="26" text-anchor="middle" class="badge-text" fill="#a5b4fc">⚡ Deep Multi-Step Research</text>
+    </g>
+
+    <!-- Pill 3 -->
+    <g transform="translate(480, 0)">
+      <rect width="200" height="42" rx="10" fill="#0f172a" stroke="#c084fc" stroke-width="1.5"/>
+      <text x="100" y="26" text-anchor="middle" class="badge-text" fill="#f0abfc">🛡️ Self-Hosted &amp; Local</text>
+    </g>
+  </g>
+</svg>
