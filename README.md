@@ -1,213 +1,153 @@
-# Awesome-AI-Search-Assistant
+# 🔍 Awesome AI Search Assistant 🤖
+
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome AI Search Assistant Banner" width="100%" />
+</p>
 
-# Awesome-AI-Search-Assistant
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Search-Assistant/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Search-Assistant?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Search-Assistant/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-AI-Search-Assistant?style=social" alt="GitHub forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Search-Assistant/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+> **Curated directory of AI-Powered Web Search Engines, Perplexity Alternatives, Cited Answer Assistants, Deep Research Agents & Local RAG Frameworks.**
 
+---
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+## 📌 Table of Contents
 
-*Focused on AI-Powered Web Search, Cited Answers & Deep Research*  
+- [📊 Market Overview & Sector Analysis](#-market-overview--sector-analysis)
+- [🌐 SaaS / Hosted Platforms](#-saas--hosted-platforms)
+- [⚡ Open-Source GitHub Projects](#-open-source-github-projects)
+- [🛠️ Search Infrastructure & RAG Frameworks](#-search-infrastructure--rag-frameworks)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+- [📈 Star History](#-star-history)
 
-**Last updated: October 2026**
+---
 
+## 📊 Market Overview & Sector Analysis
 
+> **Market Size & Growth**: The global AI Search Assistant & Deep Research market is estimated at **$3.5 Billion in 2026** and is projected to expand at a CAGR of **38.5%**, surpassing **$14.2 Billion by 2030**.  
+> **Market Structure & Fragmentation**: The market is **moderately fragmented**, exhibiting a dual-layer competition structure. While top consumer search entry points follow a *winner-takes-most* model led by tech giants (Microsoft Copilot, Google AI Overviews) and category creators (Perplexity AI), specialized domains (academic research, developer code search, privacy-first local search) and self-hosted open-source alternatives remain highly active and diverse.
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **AI Search Assistants**. These tools help users search the live web, synthesize answers with citations, and conduct multi-step research—replacing traditional search engines with AI-native information retrieval.
+---
 
+## 🌐 SaaS / Hosted Platforms
 
+| Product | Description | Starting Pricing Tier | Free Tier Limits |
+| :--- | :--- | :--- | :--- |
+| **[Perplexity AI](https://www.perplexity.ai/)** ⚡ | Category-defining AI search assistant providing cited web answers with focus modes. | **$20/month** (Pro plan) | Free forever (Unlimited standard searches, ~5 Pro searches/day). |
+| **[Microsoft Copilot in Bing](https://www.bing.com/copilot)** 🌐 | AI search assistant integrated into Bing powered by GPT-4 and web search. | **$9.99/month** (via Microsoft 365 Personal/Premium) | Free forever (Web search, chat, & Bing image creation with rate caps). |
+| **[Google Search Generative Experience (SGE)](https://labs.google/sge/)** 🔍 | Google's AI-powered search overviews and interactive AI mode. | **$19.99/month** (via Google One AI Premium for advanced AI features) | Free forever (Integrated AI Overviews directly in Google Search with no query caps). |
+| **[You.com](https://you.com/)** 🤖 | AI search platform offering specialized research agents and developer APIs. | **$5.00 / 1k API calls** (Search API) / **$20/month** (Pro plan) | Free trial with **$100 free API credits** upon signup. |
+| **[Andi Search](https://andisearch.com/)** 🛡️ | Privacy-focused AI search assistant with no tracking or ads. | **$49/month** (Developer API Team plan) | Free forever (Unlimited privacy-focused web search). |
+| **[Phind](https://www.phind.com/)** 💻 | AI search engine optimized for software developers with code generation. | **$10/month** (Phind Plus) / **$20/month** (Phind Pro) | Free forever (Unlimited Phind Fast searches, 50 Phind Large searches/day). |
+| **[Komo AI](https://komo.ai/)** 🚀 | AI search assistant focused on concise, fast cited answers. | **$8/month** (Basic) / **$20/month** (Standard) | Free forever (Access to Chat, Search, and Explore modes with basic daily query caps). |
+| **[Brave Search AI](https://search.brave.com/)** 🦁 | Brave's privacy-centric search summarizer and browser AI assistant. | **$14.99/month** (Brave Leo Premium) / **$5 per 1k calls** (Search API) | Free forever (Unlimited web search & basic Leo AI; $5/month recurring free API credits). |
+| **[Consensus](https://consensus.app/)** 🔬 | AI search engine for peer-reviewed scientific and academic research. | **$20/month** ($12/mo billed annually for Pro plan) | Free forever (Unlimited basic paper searches, 10 Pro messages/month, 3 Deep reviews/month). |
+| **[Metaphor (Exa AI)](https://metaphor.systems/)** 🧠 | Neural search engine finding web content by semantic description. | **$5.00 / 1k requests** (Pay-as-you-go API) | Free trial with **$10 monthly recurring API credits** upon signup. |
 
-**Examples** include Microsoft Copilot in Bing, Perplexity AI, Google Search Generative Experience, You.com, Andi Search, Phind, Komo AI, Brave Search AI, Consensus, and Metaphor (the category leaders).
+---
 
+## ⚡ Open-Source GitHub Projects
 
+Sorted by GitHub Stars (Descending) 🌟
 
-**Open-source emphasis**: The AI search assistant space has a **vibrant open-source ecosystem** led by **Vane (formerly Perplexica)**, a self-hosted Perplexity alternative with **20,000+ GitHub stars** that bundles SearxNG, supports multiple LLM providers, and streams cited answers . **MiniSearch** offers a browser-native alternative using WebLLM and WebGPU for fully local inference . **Scira** (11,800+ stars) provides a minimalist AI-powered search experience . **Khoj** (37,000+ stars) delivers a self-hostable AI second brain with research automation . **Farfalle** and **Sensei** provide additional self-hosted options with local LLM support . This section documents these production-grade solutions.
+1. **[Khoj](https://github.com/khoj-ai/khoj)** [![GitHub stars](https://img.shields.io/github/stars/khoj-ai/khoj?style=social&color=white)](https://github.com/khoj-ai/khoj/stargazers) 🧠  
+   **Self-hostable AI second brain with 37,000+ GitHub stars.** **AGPL-3.0 licensed**.  
+   *Key features*: Connects to docs and web; builds autonomous agents; schedules background automations; deep research with verifiable citations.  
+   *Best for*: Users wanting a personal AI assistant combining local knowledge base with live web search.
 
+2. **[Vane (formerly Perplexica)](https://github.com/ItzCrazyKns/Vane)** [![GitHub stars](https://img.shields.io/github/stars/ItzCrazyKns/Vane?style=social&color=white)](https://github.com/ItzCrazyKns/Vane/stargazers) 🚀  
+   **The most popular open-source Perplexity alternative with 20,000+ GitHub stars.** **MIT licensed**.  
+   *Key features*: Bundled SearxNG metasearch; Multi-LLM provider support (OpenAI, Anthropic, Gemini, Groq, Ollama, LM Studio); 6 Focus modes; File uploads & streaming cited answers; Deep research mode.  
+   *Deployment*: Single Docker container (`itzcrazykns1337/vane:latest`) with embedded Next.js + SearxNG + SQLite.
 
+3. **[Scira (formerly MiniPerplx)](https://github.com/zaidmukaddam/scira)** [![GitHub stars](https://img.shields.io/github/stars/zaidmukaddam/scira?style=social&color=white)](https://github.com/zaidmukaddam/scira/stargazers) ⚡  
+   **Minimalist AI-powered search engine with 11,800+ GitHub stars.** Powered by **Vercel AI SDK**.  
+   *Key features*: Streaming cited answers, minimalist high-speed interface, custom LLM selection.  
+   *Best for*: Developers wanting a clean, modern TypeScript AI search application.
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+4. **[Farfalle](https://github.com/rashadphz/farfalle)** [![GitHub stars](https://img.shields.io/github/stars/rashadphz/farfalle?style=social&color=white)](https://github.com/rashadphz/farfalle/stargazers) 🦋  
+   **Self-hostable AI search engine with local or cloud LLM support with 3,500+ GitHub stars.** **Apache-2.0 licensed**.  
+   *Key features*: Integrates with OpenAI, Groq, and Ollama; SearXNG backend; streaming web answers.
 
+5. **[Lepton Search](https://github.com/leptonai/search)** [![GitHub stars](https://img.shields.io/github/stars/leptonai/search?style=social&color=white)](https://github.com/leptonai/search/stargazers) 💡  
+   **Conversational AI search engine template built with Lepton AI with 3,200+ GitHub stars.**  
+   *Key features*: Built in under 500 lines of Python code; fast responses; clean web interface.
 
+6. **[MindSearch](https://github.com/OpenCompass/MindSearch)** [![GitHub stars](https://img.shields.io/github/stars/OpenCompass/MindSearch?style=social&color=white)](https://github.com/OpenCompass/MindSearch/stargazers) 🧭  
+   **Open-source AI search engine framework with 2,500+ GitHub stars.**  
+   *Key features*: Multi-agent search architecture; deep Web research capabilities; graph-based query expansion.
 
-## Table of Contents
+7. **[meta-surfer](https://github.com/hun-meta/meta-surfer)** [![GitHub stars](https://img.shields.io/github/stars/hun-meta/meta-surfer?style=social&color=white)](https://github.com/hun-meta/meta-surfer/stargazers) 🏄  
+   **Self-hosted AI-powered web search engine with multi-provider LLM support with 1,200+ GitHub stars.**  
+   *Key features*: SearXNG integration; supports OpenAI, Gemini, Anthropic, Grok, Z.AI; CLI, Node.js library & Next.js UI; Code execution via Piston sandbox.
 
+8. **[MiniSearch](https://github.com/felladrin/MiniSearch)** [![GitHub stars](https://img.shields.io/github/stars/felladrin/MiniSearch?style=social&color=white)](https://github.com/felladrin/MiniSearch/stargazers) 🔒  
+   **Minimalist AI search that runs entirely inside your browser with 800+ GitHub stars.**  
+   *Key features*: Local LLM inference via WebLLM (WebGPU) or Wllama (CPU); SearXNG metasearch; ONNX Runtime reranker; IndexedDB caching.
 
+9. **[Sensei](https://github.com/jljeng/sensei)** [![GitHub stars](https://img.shields.io/github/stars/jljeng/sensei?style=social&color=white)](https://github.com/jljeng/sensei/stargazers) 🥋  
+   **Self-hosted AI search engine supporting local and cloud LLMs with 500+ GitHub stars.** **Apache-2.0 licensed**.  
+   *Key features*: SearXNG metasearch; OpenAI / Anthropic / Local LLM support.
 
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
+10. **[Noodle](https://www.npmjs.com/package/@dwk/noodle)** 🍜  
+    **Self-hosted CLI & browser search engine using LLMs for relevance ranking.**  
+    *Key features*: Classic Google UI feel; Claude CLI / OpenAI integration; default browser engine replacement.
 
-- [Open-Source GitHub Projects](#open-source-github-projects)
+---
 
-- [How to Contribute](#how-to-contribute)
+## 🛠️ Search Infrastructure & RAG Frameworks
 
-- [Disclaimer](#disclaimer)
+- **[SearXNG](https://github.com/searxng/searxng)** [![GitHub stars](https://img.shields.io/github/stars/searxng/searxng?style=social&color=white)](https://github.com/searxng/searxng/stargazers) — Privacy-respecting metasearch engine used as the primary retriever by most open-source AI search tools.
+- **[Qdrant](https://github.com/qdrant/qdrant)** [![GitHub stars](https://img.shields.io/github/stars/qdrant/qdrant?style=social&color=white)](https://github.com/qdrant/qdrant/stargazers) — Vector database & vector search engine for high-performance retrieval-augmented generation.
+- **[Weaviate](https://github.com/weaviate/weaviate)** [![GitHub stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social&color=white)](https://github.com/weaviate/weaviate/stargazers) — Open-source vector database supporting hybrid search (keyword + vector).
+- **[Meilisearch](https://github.com/meilisearch/meilisearch)** [![GitHub stars](https://img.shields.io/github/stars/meilisearch/meilisearch?style=social&color=white)](https://github.com/meilisearch/meilisearch/stargazers) — Lightning-fast, hyper-relevant instant search engine.
 
+---
 
+## 🤝 How to Contribute
 
-## SaaS/Hosted Platforms
+Contributions are warmly welcomed! Help keep this awesome list comprehensive and updated.
 
+1. Fork this repository.
+2. Add or update entries in `README.md` following the established format.
+3. Ensure links are working and information is accurate.
+4. Submit a Pull Request with a clear description of your changes.
 
+Check out [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) for more curated lists! 🌟
 
-- **[Perplexity AI](https://www.perplexity.ai/)**
+---
 
-  **The category-defining AI search assistant.** Provides cited answers from live web search with focus modes (Academic, YouTube, Reddit, Wolfram Alpha). Pro tier ($20/month) unlocks more searches, file uploads, and deeper research.
+## 💖 Support & Sponsorship
 
+Thank you for visiting and using **Awesome AI Search Assistant**! If you find this repository helpful, please consider supporting the project:
 
+- ⭐ **Star this repository** to help others discover it.
+- 🍴 **Fork & Share** it with your developer and research networks.
+- ☕ **Buy me a coffee**: If you'd like to support ongoing maintenance and research, consider sponsoring via [GitHub Sponsors](https://github.com/sponsors/ishandutta2007).
 
-- **[Microsoft Copilot in Bing](https://www.bing.com/copilot)**
+<p align="center">
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-ea4aaa?style=for-the-badge&logo=github" alt="Sponsor on GitHub" />
+  </a>
+</p>
 
-  **Microsoft's AI search assistant integrated into Bing.** Combines GPT-4 with web search for cited answers, image generation, and conversational follow-ups.
+---
 
+## ⚠️ Disclaimer
 
+- This list is **community-curated** for educational and research purposes.
+- Always review security policies and data retention terms before sending sensitive queries to cloud-hosted LLMs.
+- Commercial search platforms provide managed infrastructure and global web index coverage, while open-source self-hosted solutions offer complete privacy and customization control.
 
-- **[Google Search Generative Experience (SGE)](https://labs.google/sge/)**
+---
 
-  **Google's AI-powered search experience.** Provides AI-generated overviews at the top of search results with source links. Rolling out across Google Search.
+## 📈 Star History
 
-
-
-- **[You.com](https://you.com/)**
-
-  **AI search assistant with customizable modes.** Provides cited answers, code assistance, and research capabilities.
-
-
-
-- **[Andi Search](https://andisearch.com/)**
-
-  **Privacy-focused AI search assistant.** Provides cited answers without tracking or ads.
-
-
-
-- **[Phind](https://www.phind.com/)**
-
-  **AI search engine optimized for developers.** Answers technical questions with code examples and citations.
-
-
-
-- **[Komo AI](https://komo.ai/)**
-
-  **AI search assistant focused on concise, cited answers.**
-
-
-
-- **[Brave Search AI](https://search.brave.com/)**
-
-  **Brave's AI-powered search summarizer.** Provides cited answers while maintaining privacy-focused search.
-
-
-
-- **[Consensus](https://consensus.app/)**
-
-  **AI search engine for scientific research.** Provides evidence-based answers from peer-reviewed papers.
-
-
-
-- **[Metaphor](https://metaphor.systems/)**
-
-  **AI-powered search for finding content by description.** Uses neural search to find links based on semantic similarity.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### Full-Featured AI Search Engines
-
-
-
-- **[Vane (formerly Perplexica)](https://github.com/ItzCrazyKns/Vane)**  
-
-  **The most popular open-source Perplexity alternative with 20,000+ GitHub stars.** **MIT licensed** . **Key features**: **Bundled SearxNG** — private, untracked web search without API keys ; **Multiple LLM providers** — OpenAI, Anthropic, Gemini, Groq, Ollama, LM Studio, Lemonade ; **Six focus modes** — All, Academic, YouTube, Reddit, Writing Assistant, Wolfram Alpha ; **File uploads** — chat with PDFs, DOCX, and text files ; **Streaming cited answers** with inline citations and source sidebars ; **Deep research mode** for multi-step autonomous research . **Deployment**: Single Docker image (`itzcrazykns1337/vane:latest`) bundles Next.js + SearxNG + SQLite — no external Postgres or Redis required . **Best for**: Teams wanting a complete, production-ready self-hosted AI search engine with minimal setup.
-
-
-
-- **[MiniSearch](https://github.com/felladrin/MiniSearch)**  
-
-  **Minimalist AI search that runs entirely in your browser.** **Key innovation**: **In-browser LLM inference** via **WebLLM** (WebGPU) or **Wllama** (CPU) — no API keys or remote servers required . **Key features**: **SearXNG metasearch** for web results; **ONNX Runtime reranker** for result quality; **IndexedDB storage** for history and cache; **Docker deployment** with provenance and SBOM attestations . **Demo**: Available on Hugging Face Spaces . **Best for**: Privacy-conscious users wanting AI search without sending queries to external LLM providers.
-
-
-
-- **[Scira (formerly MiniPerplx)](https://github.com/zaidmukaddam/scira)**  
-
-  **Minimalist AI-powered search engine with 11,800+ GitHub stars.** Powered by **Vercel AI SDK** . **Key features**: Cited answers, clean interface, fast search. **Best for**: Developers wanting a lightweight, modern AI search implementation.
-
-
-
-- **[Khoj](https://github.com/khoj-ai/khoj)**  
-
-  **Self-hostable AI second brain with 37,000+ GitHub stars.** **AGPL-3.0 licensed** . **Key features**: Connects to docs and web; builds agents; schedules automations; research with verifiable citations. **Best for**: Users wanting an AI assistant that combines personal knowledge with web search.
-
-
-
-### Alternative Implementations
-
-
-
-- **[Farfalle](https://github.com/rashadphz/farfalle)**  
-
-  **Self-hostable AI search engine with local or cloud LLM support.** **Apache-2.0 licensed** . **Key features**: Multiple LLM providers (OpenAI, Groq, Ollama); SearXNG search; cited answers. **Note**: Last commit September 2024; production-readiness limited .
-
-
-
-- **[Sensei](https://github.com/jljeng/sensei)**  
-
-  **Self-hosted AI search alternative.** **Apache-2.0 licensed** . **Key features**: SearXNG search; OpenAI/Anthropic support; local LLM support (hardcoded). **Note**: Last commit October 2024 .
-
-
-
-- **[meta-surfer](https://github.com/hun-meta/meta-surfer)**  
-
-  **Self-hosted AI-powered web search engine with multi-provider LLM support.** **Key features**: **SearXNG** for private search; **OpenAI, Gemini, Anthropic, Grok, Z.AI** support; **CLI, Node.js library, and Next.js web UI**; **Deep research mode** for autonomous multi-step research; **Code execution** via Piston sandbox; **Streaming responses** . **Quick start**: `git clone && npm install && docker compose up -d` . **Best for**: Developers wanting a flexible, multi-interface AI search tool.
-
-
-
-- **[Noodle](https://www.npmjs.com/package/@dwk/noodle)**  
-
-  **Self-hosted search engine that uses LLMs to return relevance-ranked results.** **Key features**: **Classic Google UI**; **Claude CLI or OpenAI** integration; **Lucky Me** (jump to top result); **Caching** (6-hour TTL); **Browser integration** as default search engine; **JSON API** . **Quick start**: `npx @dwk/noodle` . **Best for**: Users wanting an ad-free, SEO-spam-free search experience.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Full Search Engines**: **Vane** (Perplexica successor, 20k+ stars, Docker), **MiniSearch** (browser-native, WebLLM), **Scira** (11.8k stars), **Khoj** (37k stars, AI second brain) .
-
-- **Alternative Implementations**: **Farfalle**, **Sensei** .
-
-- **Developer Tools**: **meta-surfer** (CLI + library + web UI), **Noodle** (browser search replacement) .
-
-- **Search Infrastructure**: **SearXNG** (meta search engine), **Meilisearch** (fast search), **Typesense** (typo-tolerant search), **Qdrant** (vector search), **Weaviate** (hybrid search) .
-
-
-
-**Frameworks for building custom systems**: Combine **Vane/Perplexica** for a complete self-hosted AI search engine with cited answers, **SearXNG** for private metasearch, **Qdrant** or **Weaviate** for vector search, **Meilisearch** for fast full-text search, and **Ollama** or **Groq** for local/cheap LLM inference. Add **Docker** for deployment.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- AI search assistants send queries to external LLM providers by default; ensure compliance with organizational security policies and review data handling practices before deployment.
-
-- **Open-source reality**: The open-source ecosystem for AI search assistants is **mature and production-proven**. **Vane (Perplexica)** is the standout — 20,000+ stars, single Docker image bundling SearxNG, multi-provider LLM support, and cited answers . **MiniSearch** enables fully local AI search via WebLLM/WebGPU . **Khoj** provides an AI second brain with personal knowledge integration . **Scira**, **Farfalle**, and **Sensei** offer additional self-hosted alternatives . However, **commercial platforms** (Perplexity, Microsoft Copilot, Google SGE) provide **broader index coverage, faster response times, and managed infrastructure** that open-source alternatives require additional configuration to match. The open-source path is **genuinely viable** for privacy-conscious users and teams wanting full control over their search infrastructure.
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-AI-Search-Assistant&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-AI-Search-Assistant&type=date&legend=top-left)
